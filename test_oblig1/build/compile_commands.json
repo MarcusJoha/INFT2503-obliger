@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/marcusjohannessen/Desktop/NTNU/Høst 2022/C++/Obliger/oblig1/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++1y -Wall -Wextra -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -o CMakeFiles/hello.dir/main.cpp.o -c \"/Users/marcusjohannessen/Desktop/NTNU/Høst 2022/C++/Obliger/oblig1/main.cpp\"",
+  "file": "/Users/marcusjohannessen/Desktop/NTNU/Høst 2022/C++/Obliger/oblig1/main.cpp"
+}
+]
