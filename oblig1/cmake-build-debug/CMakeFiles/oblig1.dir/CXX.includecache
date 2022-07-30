@@ -6,3 +6,9 @@
 
 #IncludeRegexTransform: 
 
+/Users/marcusjohannessen/Desktop/NTNU/Høst 2022/C++/Obliger/oblig1/main_b.cpp
+iostream
+-
+fstream
+-
+

@@ -17,26 +17,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/marcusjohannessen/Desktop/NTNU/Høst\ 2022/C++/Obliger/oblig1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/marcusjohannessen/Desktop/NTNU/Høst 2022/C++/Obliger/oblig1/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/marcusjohannessen/Desktop/NTNU/Høst\ 2022/C++/Obliger/oblig1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/marcusjohannessen/Desktop/NTNU/Høst\ 2022/C++/Obliger/oblig1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/marcusjohannessen/Desktop/NTNU/Høst\ 2022/C++/Obliger/oblig1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/marcusjohannessen/Desktop/NTNU/Høst\ 2022/C++/Obliger/oblig1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/marcusjohannessen/Desktop/NTNU/Høst 2022/C++/Obliger/oblig1/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/marcusjohannessen/Desktop/NTNU/Høst\ 2022/C++/Obliger/oblig1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/marcusjohannessen/Desktop/NTNU/Høst\ 2022/C++/Obliger/oblig1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/marcusjohannessen/Desktop/NTNU/Høst\ 2022/C++/Obliger/oblig1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/marcusjohannessen/Desktop/NTNU/Høst\ 2022/C++/Obliger/oblig1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="oblig1">
 				<Option output="/Users/marcusjohannessen/Desktop/NTNU/Høst 2022/C++/Obliger/oblig1/cmake-build-debug/oblig1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/marcusjohannessen/Desktop/NTNU/Høst 2022/C++/Obliger/oblig1/cmake-build-debug"/>
@@ -74,6 +54,26 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/marcusjohannessen/Desktop/NTNU/Høst\ 2022/C++/Obliger/oblig1/cmake-build-debug/Makefile&quot;  VERBOSE=1 oblig1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/marcusjohannessen/Desktop/NTNU/Høst\ 2022/C++/Obliger/oblig1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/marcusjohannessen/Desktop/NTNU/Høst\ 2022/C++/Obliger/oblig1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/marcusjohannessen/Desktop/NTNU/Høst\ 2022/C++/Obliger/oblig1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/marcusjohannessen/Desktop/NTNU/Høst 2022/C++/Obliger/oblig1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/marcusjohannessen/Desktop/NTNU/Høst\ 2022/C++/Obliger/oblig1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/marcusjohannessen/Desktop/NTNU/Høst\ 2022/C++/Obliger/oblig1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/marcusjohannessen/Desktop/NTNU/Høst\ 2022/C++/Obliger/oblig1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/marcusjohannessen/Desktop/NTNU/Høst\ 2022/C++/Obliger/oblig1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/marcusjohannessen/Desktop/NTNU/Høst 2022/C++/Obliger/oblig1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/marcusjohannessen/Desktop/NTNU/Høst\ 2022/C++/Obliger/oblig1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/marcusjohannessen/Desktop/NTNU/Høst\ 2022/C++/Obliger/oblig1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/marcusjohannessen/Desktop/NTNU/Høst\ 2022/C++/Obliger/oblig1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/marcusjohannessen/Desktop/NTNU/Høst\ 2022/C++/Obliger/oblig1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>

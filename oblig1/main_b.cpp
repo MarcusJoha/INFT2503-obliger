@@ -6,6 +6,7 @@
 #include <fstream>
 using namespace std;
 
+// Method to read numbers from a file
 void read_temperatures(double temperatures[], int length) {
     const string filename = "numbers.dat";
     ifstream file;
@@ -16,10 +17,7 @@ void read_temperatures(double temperatures[], int length) {
     }
     int temp;
     for (int i = 0; i < length; i++) {
-
-        file >> temp;
-        temperatures[i] = temp;
-        cout<<"Temp: "<<temp<<endl;
+        file >> temperatures[i];
     }
 
     file.close();
