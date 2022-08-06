@@ -1,7 +1,3 @@
-//
-// Created by Marcus Johannessen on 28/07/2022.
-//
-
 #include <iostream>
 #include <fstream>
 using namespace std;
@@ -15,7 +11,6 @@ void read_temperatures(double temperatures[], int length) {
         cerr<< "Could not open the file - " << filename <<endl;
         EXIT_FAILURE;
     }
-    int temp;
     for (int i = 0; i < length; i++) {
         file >> temperatures[i];
     }

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/marcusjohannessen/Desktop/NTNU/Høst 2022/C++/Obliger/oblig1/build",
+  "command": "/usr/bin/clang++    -std=c++1y -Wall -Wextra -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -o CMakeFiles/oblig1.dir/main_b.cpp.o -c \"/Users/marcusjohannessen/Desktop/NTNU/Høst 2022/C++/Obliger/oblig1/main_b.cpp\"",
+  "file": "/Users/marcusjohannessen/Desktop/NTNU/Høst 2022/C++/Obliger/oblig1/main_b.cpp"
+}
+]
