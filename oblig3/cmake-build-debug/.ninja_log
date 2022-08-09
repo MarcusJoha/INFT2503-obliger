@@ -1,5 +1,9 @@
 # ninja log v5
+<<<<<<< HEAD
 0	77	1660066379255018546	build.ninja	15bebb3df1e2312b
+=======
+0	77	1660066066015261120	build.ninja	15bebb3df1e2312b
+>>>>>>> ec01896dee282dba78c6b8ea7b552d3889df0fcc
 0	732	1660065842271377851	CMakeFiles/oblig3.dir/oppg1-2.cpp.o	539a63420e1d122e
 715	782	1660066356888490848	oblig3	4b4cfbd42bb2fa3d
 0	813	1660065860805119739	CMakeFiles/oblig3.dir/oppg4.cpp.o	c4ec6900913eef28
