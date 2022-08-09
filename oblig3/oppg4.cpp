@@ -44,6 +44,11 @@ int main() {
 
 
     // f)
+    string sentence_start = sentence.substr(0, 5);
+    cout << "Sentence start: " << sentence_start << "\nSentence: " << sentence << endl;
+
+    // g)
+    if (sentence.find("hallo")) cout << "funnet" << endl;
 
     return 0;
 }
