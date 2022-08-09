@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/marcusjohannessen/Desktop/NTNU/H\u00f8st 2022/C++/Innleveringer/oblig3/cmake-build-debug"
+			"value" : "/Users/marcusjohannessen/Desktop/NTNU/H\u00f8st 2022/C++/Obliger/oblig3/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/marcusjohannessen/Desktop/NTNU/H\u00f8st 2022/C++/Innleveringer/oblig3"
+			"value" : "/Users/marcusjohannessen/Desktop/NTNU/H\u00f8st 2022/C++/Obliger/oblig3"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1087,7 +1087,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/marcusjohannessen/Desktop/NTNU/H\u00f8st 2022/C++/Innleveringer/oblig3/cmake-build-debug"
+			"value" : "/Users/marcusjohannessen/Desktop/NTNU/H\u00f8st 2022/C++/Obliger/oblig3/cmake-build-debug"
 		},
 		{
 			"name" : "oblig3_IS_TOP_LEVEL",
@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/marcusjohannessen/Desktop/NTNU/H\u00f8st 2022/C++/Innleveringer/oblig3"
+			"value" : "/Users/marcusjohannessen/Desktop/NTNU/H\u00f8st 2022/C++/Obliger/oblig3"
 		}
 	],
 	"kind" : "cache",
