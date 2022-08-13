@@ -44,6 +44,30 @@ int main() {
 
 
     // f)
+    string sentence_start(sentence.substr(0,5));
+    cout << "Sentence start: " << sentence_start << endl;
+
+
+    // g)
+    bool found = sentence.find("hello", 0) != string::npos;
+    if (found) {
+        cout << "found!" << endl;
+    } else {
+        cout << "Not found!" << endl;
+    }
+
+    // h)
+    string er = "er";
+    int count = 0;
+
+    int f = sentence.find(er);
+    while (f != string::npos) {
+        count++;
+        f = sentence.find(er, f+1);
+    }
+
+    cout << "Antall er: " << count << endl;
+
 
     return 0;
 }
