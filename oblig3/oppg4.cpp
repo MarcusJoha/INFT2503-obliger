@@ -30,12 +30,6 @@ int main() {
 
     // d)
     string sentence2 = sentence;
-    /*
-    cout << "Sentence2: " << sentence2 << endl;
-    sentence2 = "hei";
-    cout << "sentence2 etter forandring til hei: " << sentence2  << endl;
-    cout << "Sentence etter forandring av sentence2: " << sentence << endl;
-     */
 
     // e)
     sentence2.replace(10, 3,  "xxx", 0, 3);
@@ -47,8 +41,27 @@ int main() {
     string sentence_start = sentence.substr(0, 5);
     cout << "Sentence start: " << sentence_start << "\nSentence: " << sentence << endl;
 
+
+
     // g)
-    if (sentence.find("hallo")) cout << "funnet" << endl;
+    bool found = sentence.find("hello", 0) != string::npos;
+    if (found) {
+        cout << "found!" << endl;
+    } else {
+        cout << "Not found!" << endl;
+    }
+
+    // h)
+    string er = "er";
+    int count = 0;
+
+    int f = sentence.find(er);
+    while (f != string::npos) {
+        count++;
+        f = sentence.find(er, f+1);
+    }
+
+    cout << "Antall er: " << count << endl;
 
     return 0;
 }
