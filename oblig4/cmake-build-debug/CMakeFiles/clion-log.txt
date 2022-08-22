@@ -1,0 +1,1 @@
+CMakeLists.txt not found in /Users/marcusjohannessen/Desktop/NTNU/Høst 2022/C++/Obliger/oblig4 Select CMakeLists.txt
