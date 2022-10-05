@@ -7,6 +7,15 @@ string Knight::type() const
     return color_string() + " knight";
 }
 
+string Knight::symbol() const
+{
+    if (color == Color::WHITE)
+        return "white Knight";
+    
+    else
+        return "Black Knight";
+}
+
 bool Knight::valid_move(int from_x, int from_y, int to_x, int to_y) const
 {
     int abs_x_change = abs(from_x - to_x);
@@ -18,10 +27,4 @@ bool Knight::valid_move(int from_x, int from_y, int to_x, int to_y) const
         return true;
 
     return false;
-}
-
-string Knight::type() const
-{
-    string color_text = (color == Color::WHITE) ? "white" : "black";
-    return color_text + " Knight";
 }
