@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/marcusjohannessen/Desktop/NTNU/Høst 2022/C++/Obliger/oblig4/oblig4_task1/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/oblig4.dir/main.cpp.o -c \"/Users/marcusjohannessen/Desktop/NTNU/Høst 2022/C++/Obliger/oblig4/oblig4_task1/main.cpp\"",
+  "file": "/Users/marcusjohannessen/Desktop/NTNU/Høst 2022/C++/Obliger/oblig4/oblig4_task1/main.cpp"
+}
+]

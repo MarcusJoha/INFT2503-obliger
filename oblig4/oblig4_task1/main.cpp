@@ -18,7 +18,7 @@ int main() {
     }
 
     // Printe ut front og back
-    cout << vec.front() << " " << vec.back() << endl;
+    cout <<"front"<< vec.front() << ", back: " << vec.back() << endl;
 
     // Legge til et tall etter første index
     vec.emplace(vec.begin() + 1, 4242);

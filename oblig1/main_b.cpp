@@ -3,21 +3,7 @@
 using namespace std;
 
 // Method to read numbers from a file
-void read_temperatures(double temperatures[], int length) {
-    const string filename = "numbers.dat";
-    ifstream file;
-    file.open(filename);
-    if (!file.is_open()) {
-        cerr<< "Could not open the file - " << filename <<endl;
-        EXIT_FAILURE;
-    }
-    for (int i = 0; i < length; i++) {
-        file >> temperatures[i];
-    }
-
-    file.close();
-    EXIT_SUCCESS;
-}
+void read_temperatures(double temperatures[], int length);
 
 int main() {
 
@@ -49,4 +35,20 @@ int main() {
     cout<<"Antall over " + to_string(high) + " er: " + to_string(over)<<endl;
 
     return 0;
+}
+
+void read_temperatures(double temperatures[], int length) {
+    const string filename = "numbers.dat";
+    ifstream file;
+    file.open(filename);
+    if (!file.is_open()) {
+        cerr<< "Could not open the file - " << filename <<endl;
+        EXIT_FAILURE;
+    }
+    for (int i = 0; i < length; i++) {
+        file >> temperatures[i];
+    }
+
+    file.close();
+    EXIT_SUCCESS;
 }
