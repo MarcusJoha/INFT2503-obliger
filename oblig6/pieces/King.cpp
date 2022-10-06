@@ -1,4 +1,4 @@
-#include "King.hpp"
+#include "King.h"
 
 using namespace std;
 

@@ -1,4 +1,4 @@
-#include "Knight.hpp"
+#include "Knight.h"
 
 using namespace std;
 
@@ -17,6 +17,15 @@ string Knight::symbol() const
 }
 
 bool Knight::valid_move(int from_x, int from_y, int to_x, int to_y) const
+
+{
+    int diff_x = abs(to_x - from_x), diff_y = abs(to_y - from_y);
+
+    return (diff_x == 2 && diff_y == 1) || (diff_x == 1 || diff_y == 2);
+}
+
+
+/*
 {
     int abs_x_change = abs(from_x - to_x);
     int abs_y_change = abs(from_y - to_y);
@@ -28,3 +37,4 @@ bool Knight::valid_move(int from_x, int from_y, int to_x, int to_y) const
 
     return false;
 }
+*/

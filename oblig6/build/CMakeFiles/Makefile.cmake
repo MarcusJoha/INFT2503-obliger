@@ -24,6 +24,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/Cellar/cmake/3.23.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/usr/local/Cellar/cmake/3.23.3/share/cmake/Modules/Compiler/Clang.cmake"
   "/usr/local/Cellar/cmake/3.23.3/share/cmake/Modules/Compiler/GNU.cmake"
+  "/usr/local/Cellar/cmake/3.23.3/share/cmake/Modules/FindBoost.cmake"
+  "/usr/local/Cellar/cmake/3.23.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+  "/usr/local/Cellar/cmake/3.23.3/share/cmake/Modules/FindPackageMessage.cmake"
   "/usr/local/Cellar/cmake/3.23.3/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake"
   "/usr/local/Cellar/cmake/3.23.3/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake"
   "/usr/local/Cellar/cmake/3.23.3/share/cmake/Modules/Platform/Apple-Clang-C.cmake"
@@ -32,6 +35,17 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/Cellar/cmake/3.23.3/share/cmake/Modules/Platform/Darwin-Initialize.cmake"
   "/usr/local/Cellar/cmake/3.23.3/share/cmake/Modules/Platform/Darwin.cmake"
   "/usr/local/Cellar/cmake/3.23.3/share/cmake/Modules/Platform/UnixPaths.cmake"
+  "/usr/local/lib/cmake/Boost-1.79.0/BoostConfig.cmake"
+  "/usr/local/lib/cmake/Boost-1.79.0/BoostConfigVersion.cmake"
+  "/usr/local/lib/cmake/BoostDetectToolset-1.79.0.cmake"
+  "/usr/local/lib/cmake/boost_headers-1.79.0/boost_headers-config-version.cmake"
+  "/usr/local/lib/cmake/boost_headers-1.79.0/boost_headers-config.cmake"
+  "/usr/local/lib/cmake/boost_system-1.79.0/boost_system-config-version.cmake"
+  "/usr/local/lib/cmake/boost_system-1.79.0/boost_system-config.cmake"
+  "/usr/local/lib/cmake/boost_system-1.79.0/libboost_system-variant-mt-shared.cmake"
+  "/usr/local/lib/cmake/boost_system-1.79.0/libboost_system-variant-mt-static.cmake"
+  "/usr/local/lib/cmake/boost_system-1.79.0/libboost_system-variant-shared.cmake"
+  "/usr/local/lib/cmake/boost_system-1.79.0/libboost_system-variant-static.cmake"
   )
 
 # The corresponding makefile is:
@@ -47,5 +61,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/oblig6.dir/DependInfo.cmake"
+  "CMakeFiles/chess.dir/DependInfo.cmake"
   )
