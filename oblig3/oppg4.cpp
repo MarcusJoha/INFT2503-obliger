@@ -30,12 +30,6 @@ int main() {
 
     // d)
     string sentence2 = sentence;
-    /*
-    cout << "Sentence2: " << sentence2 << endl;
-    sentence2 = "hei";
-    cout << "sentence2 etter forandring til hei: " << sentence2  << endl;
-    cout << "Sentence etter forandring av sentence2: " << sentence << endl;
-     */
 
     // e)
     sentence2.replace(10, 3,  "xxx", 0, 3);
@@ -44,8 +38,9 @@ int main() {
 
 
     // f)
-    string sentence_start(sentence.substr(0,5));
-    cout << "Sentence start: " << sentence_start << endl;
+    string sentence_start = sentence.substr(0, 5);
+    cout << "Sentence start: " << sentence_start << "\nSentence: " << sentence << endl;
+
 
 
     // g)
@@ -67,7 +62,6 @@ int main() {
     }
 
     cout << "Antall er: " << count << endl;
-
 
     return 0;
 }
