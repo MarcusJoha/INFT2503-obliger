@@ -1,0 +1,11 @@
+b) Teori: Forklar hvordan "5-3 - fraction1 - 7 - fraction2 blir tolket, Hvilken versjoner av operatoren - blir brukt?
+
+5-3=2
+operator-(2, fraction1) = x
+x - 7 = y
+operator-(y, fraction2) = svar
+
+Minus er venstre-assosiativ som betyr at uttrykket regnes fra venstre -> høyre, der - er en binæroperator.
+
+
+
