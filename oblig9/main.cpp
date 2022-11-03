@@ -5,9 +5,6 @@
 
 using namespace std;
 
-bool bigger_than(int n) {
-    return n>15;
-}
 
 int main(){
     
@@ -15,10 +12,25 @@ int main(){
     vector<int> v2 = {2,3,12,14,24};
 
     // a)
-    std::vector<int>::iterator val = std::find_if(v1.begin(), v1.end(), bigger_than);
+    auto val = std::find_if(v1.begin(), v1.end(), [](auto &n){return n > 15;});
+    cout << *val << endl;
 
-    cout << *val.end() << endl;
-
+    // b)
+    auto eq = equal(v1.begin(), v1.begin()+5, v2.begin(), [](int &x, int &y){return abs(x-y) < 2;});
+    cout << (eq ? "equal" : "not equal") << endl; // hvis +4 er dem equal
     
+
+    // c
+    vector<int> odd = {};
+    odd.resize(v1.size());
+
+    replace_copy_if(v1.begin(), v1.end(), odd.begin(), [](auto &n){
+        return n%2 != 0;
+    }, 100);
+
+    for (auto i: odd) {
+        cout << i << ", ";
+    }
+
     return 0;
 }
