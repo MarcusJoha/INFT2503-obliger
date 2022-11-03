@@ -1,3 +1,0 @@
-/Users/marcusjohannessen/Desktop/NTNU/Høst 2022/C++/Obliger/oblig9/build/CMakeFiles/main.dir
-/Users/marcusjohannessen/Desktop/NTNU/Høst 2022/C++/Obliger/oblig9/build/CMakeFiles/edit_cache.dir
-/Users/marcusjohannessen/Desktop/NTNU/Høst 2022/C++/Obliger/oblig9/build/CMakeFiles/rebuild_cache.dir
